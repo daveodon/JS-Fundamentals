@@ -1,4 +1,4 @@
-const words=process.argv.slice(2);
-if (words.length===0){
+const [first]=process.argv.slice(2);
+if (!first){
     console.log("No Argument");
 }
