@@ -1,8 +1,8 @@
-let answer =prompt("what is your favorite colour?");
-if (answer == yellow){
+const args =process.argv.slice(2);
+if (args.length === 0){
     console.log("No Argument ");
 }
-else if (answer == blue){
+else if (args.length === 1){
     console.log("Argument found");
 }
 else {
