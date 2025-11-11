@@ -3,4 +3,4 @@ if (!first){
     console.log("No Argument");
 }
 else {
-    console.log("Argument found");}
+    console.log("first");}
