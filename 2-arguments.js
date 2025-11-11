@@ -7,4 +7,5 @@ else if (args.length === 1){
 }
 else {
     console.log("Argument found");
+    console.log(args.join(" "));
 }
